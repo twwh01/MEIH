@@ -5,7 +5,8 @@
 /src/r/old/*
 
 # generated/processed data
-/data/processed/*
+# optionally removed processed data files from the repository to save space, but they can be regenerated from the raw data
+# /data/processed/*
 
 # downloaded gplately plate-rotation model cache
 /data/plate_models/
