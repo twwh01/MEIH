@@ -33,7 +33,7 @@ DEPOSITS_XLSX = DATA_DIR / "Data_S1_MEIH_deposits_raw.xlsx"
 MODELS_DIR = DATA_DIR / "plate_models"              # gplately cache (git-ignored)
 PROCESSED_DIR = DATA_DIR / "processed"              # outputs (git-ignored)
 OUTPUT_CSV = PROCESSED_DIR / "meih_deposits_rotated.csv"
-SUMMARY_CSV = PROCESSED_DIR / "table_3_meih_deposit_summary_by_score.csv"
+SUMMARY_CSV = PROCESSED_DIR / "table_4_meih_deposit_summary_by_score.csv"
 
 # --- parameters ---------------------------------------------------------------------------------
 ROTATION_AGE = 600    # Ma
