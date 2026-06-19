@@ -9,7 +9,7 @@ This directory contains all the script files necessary for reproducing the analy
 
 The NetCDF data files are not included here; they are .gitignore'd out as they are large files. They are available on Zenodo at: . 
 
-To run the code that requires the NetCDF files, download the files from the Zenodo repository and unzip them to the corresponding directories: `data/Data_S3_FOAM_files/`, `data/Data_S4_LMDZ_files/`, and `data/Data_S5_GRISLI_files/`.
+To run the code that requires the NetCDF files, download the files from the Zenodo repository [https://doi.org/10.5281/zenodo.17158910](https://doi.org/10.5281/zenodo.17158910) and unzip them to the corresponding directories: `data/Data_S3_FOAM_files/`, `data/Data_S4_LMDZ_files/`, and `data/Data_S5_GRISLI_files/`.
 
 ## Repository structure
 
