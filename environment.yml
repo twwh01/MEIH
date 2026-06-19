@@ -1,0 +1,50 @@
+# Conda environment for MEIH (mid-Ediacaran icehouse) project Python analyses
+# See also the .Rproj file for analyses and plots using R
+# 
+# create with:
+#   conda env create -f environment.yml
+# or: (faster)
+#   mamba env create -f environment.yml
+#
+# activate with:
+#   conda activate meih
+#
+# the conda-forge channel is recommended the geospatial packages
+# (pygplates, gplately, cartopy, geopandas) on Windows
+name: meih
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+
+  # core stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib-base
+
+  # n-dimensional / climate model output (FOAM, LMDZ, GRISLI) stack
+  - xarray
+  - netcdf4
+  - dask
+
+  # geospatial / palaeogeography stack
+  # gplately pulls in pygplates from conda-forge
+  - gplately
+  - pygplates
+  - cartopy
+  - geopandas
+  - shapely
+  - pyproj
+
+  # reading the supplementary .xlsx data files
+  - openpyxl
+
+  # interactive work
+  # not needed for running the scripts or reproducing the analyses
+  # useful for anyone who wants to explore the data interactively in a Jupyter notebook
+  - jupyterlab
+  - ipykernel
+
+  # keep pip available for anything not on conda-forge
+  - pip
