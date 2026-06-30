@@ -1,5 +1,5 @@
 # MEIH: the Mid-Ediacaran IceHouse
-Supplementary code and (some of the) data for Wong Hearing et al. (submitted): *A Phanerozoic-style icehouse climate in the middle Ediacaran*. 
+Supplementary code and (some of the) data for Wong Hearing et al.: *A Phanerozoic-style icehouse climate in the middle Ediacaran* submitted to Climate of the Past and available for discussion on [*EGUsphere*](https://doi.org/10.5194/egusphere-2026-3617). 
 
 Authors: Thomas W. Wong Hearing, Alexandre Pohl, Thomas M. Vandyk, Benjamin H. Tindal, Frédéric Fluteau, Alexander G. Liu, Thomas H. P. Harvey, Mark Williams
 
