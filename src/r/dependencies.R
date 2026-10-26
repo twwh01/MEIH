@@ -28,7 +28,7 @@ r_dependencies <- c(
 # install any that are missing, then load them all
 for (pkg in r_dependencies) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg)
+    install.packages(pkg, dependencies = TRUE)
   }
 }
 

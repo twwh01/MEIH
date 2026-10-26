@@ -1,6 +1,6 @@
 # Figure 1: glaciogenic sedimentary deposits and scores through time 
 # T. Wong Hearing
-# 19 June 2026
+# 26 October 2026
 #
 # Updated from Wong Hearing et al (2026)
 
