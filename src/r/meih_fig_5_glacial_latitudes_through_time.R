@@ -68,7 +68,7 @@ fig5_ice_through_time <- data_to_plot |>
   ) +
   labs(
     x = "Age (Ma)",
-    y = "Maximum latitudinal extent of ice\n(° from equator)"
+    y = "Maximum latitudinal extent\nof land ice (° from equator)"
   ) +
   scale_x_reverse(breaks = c(seq(from = 0, to = 700, by = 50))) +
   scale_y_continuous(limits = c(0, 90), breaks = seq(from = 0, to = 90, by = 30)) +
