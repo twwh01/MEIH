@@ -112,11 +112,19 @@ fig5_ice_through_time <- data_to_plot |>
   ) +
   # LEIH label
   annotate(
-    geom = "text", x = 557, y = 43, label = "LEIH",
+    geom = "text", x = 557, y = 42, label = "LEIH",
     hjust = 1,
     angle = 90, fontface = "bold", colour = "steelblue", alpha = 0.5, 
     size = 12/.pt
-  ) 
+  ) +
+  # question marks for latitude extent uncertainty
+  annotate(
+    geom = "text", x = c(628, 557), y = 45, label = "?",
+    hjust = 0.5,
+    angle = 0, fontface = "bold", colour = "black", alpha = 1, 
+    size = 12/.pt
+  )
+
 
 # show plot
 if (isTRUE(plot_show)) {
